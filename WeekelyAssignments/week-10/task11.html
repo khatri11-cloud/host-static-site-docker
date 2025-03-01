@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+	<TITLE> Add Items In Blank Array </TITLE>
+</HEAD>
+
+<BODY>
+<input type="text" id="text1">
+    <input type="button" id="button1" value="Add" onclick="addItemToArray()">
+    <input type="button" id="button2" value="Display" onclick="displayArray()">
+    <div id="Result"></div>
+    <SCRIPT>
+ 
+      const myArray = [];
+
+      
+      function addItemToArray() {
+        const item = document.getElementById("text1").value;
+        myArray.push(item);
+        alert("Element: " + item + " added at index " + (myArray.length - 1));
+        document.getElementById("text1").value = "";
+      }
+
+      
+      function displayArray() {
+        let output = "<hr>";
+
+        for (let i = 0; i < myArray.length; i++) {
+          output += `Element ${i} = ${myArray[i]} <br>`;
+        }
+
+        document.getElementById("Result").innerHTML = output;
+      }
+    </SCRIPT>
+</BODY>
+</HTML>

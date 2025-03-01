@@ -1,0 +1,28 @@
+<HTML>
+<HEAD>
+	<TITLE>Area Of Rectangle</TITLE>
+	<BODY>
+		<SCRIPT>
+		function calculateRectangleArea(length, breadth) {
+			var area = length * breadth;
+			return area;
+		}
+
+		function displayRectangleArea() {
+			var length = parseFloat(document.getElementById("length").value);
+			var breadth = parseFloat(document.getElementById("breadth").value);
+			var area = calculateRectangleArea(length, breadth);
+			document.getElementById("result").innerHTML = area;
+		}
+		</SCRIPT>
+</HEAD>
+<BODY>
+	<h1>Calculate Area of Rectangle</h1>
+	<label for="length">Length:</label>
+	<input type="number" id="length" value="10"><br><br>
+	<label for="breadth">Breadth:</label>
+	<input type="number" id="breadth" value="5"><br><br>
+	<button onclick="displayRectangleArea()">Calculate</button><br><br>
+	<p>The area of the rectangle is: <span id="result"></span></p>
+	</BODY>
+</HTML>

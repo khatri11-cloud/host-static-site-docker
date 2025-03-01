@@ -1,0 +1,87 @@
+#mainlogo {
+    margin: 10px;
+}
+.navbar{
+    list-style: none;
+    float: right;
+    background: #222;
+    padding: 0%;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar li a{
+    display: block;
+    padding: 10px 25px;
+    color: #aaa;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    background: #f2f2f2;
+    color: #222;
+}
+#address {
+    text-align: right;
+    padding: 10px 25px;
+}
+.cardright {
+    background-color: #ddd;
+    margin: 15px;
+    width: 46%;
+    float: right;
+}
+.cardleft {
+    background-color: #ddd;
+    margin: 15px;
+    width: 46%;
+    float: left;
+}
+h1 {
+    margin-left: 15px;
+}
+.companyname {
+    color: rgb(0, 123, 255);
+}
+.logo {
+    width: 30%;
+    height: 20%;
+    margin: 15px 15px;
+    float: left;
+}
+.info {
+    padding: 15px;
+}
+.clear {
+    clear: left;
+}
+#sitemap {
+    margin-left: 35px;
+}
+.sitemap {
+    width: 20%;
+    float: left;
+}
+.sitemap ul {
+    list-style: none;
+}
+.sitemap ul li a {
+    text-decoration: none;
+}
+#testimonials {
+    float:left;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 20%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#location {
+    float: left;
+    margin-left: 5%;
+}
+.map {
+    margin: 15px 15px;
+    float: left;
+    width: 250px;
+    height: 250px;
+}

@@ -1,0 +1,21 @@
+>>>>>>>>>>>REFERENCES<<<<<<<<<<<<<<<<<<<
+
+https://www.geeksforgeeks.org/how-to-make-a-pagination-using-html-and-css/
+
+https://dev.to/code_mystery/image-slider-using-html-css-and-javascript-5dfn
+
+These two links were used as a reference  to make image slider in homepage and for the pagination used in shopkhukuri page 
+
+Different youtube videos and some other written blogs were also taken as reference for the completion of this final project 
+
+Images are taken from google 
+
+Htmls, css and Basic javascript was used for the completion of this second semester final project of Internet Technologies 
+The website is made under the guidance and requirements that were compoulsory to be used in this project.
+
+logo was designed in illustrator by image tracing and used in the website using the image slicing technique.
+
+
+Thank you module leader for your guidance!:))
+
+

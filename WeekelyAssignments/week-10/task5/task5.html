@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Displaying Images with JavaScript</title>
+</head>
+<body>
+  <script>
+    // Use a for loop to display the images
+    for (var i = 1; i <= 4; i++) {
+      // Create a new image element
+      var img = document.createElement("img");
+
+      // Set the source attribute to the appropriate filename
+      img.src = i + ".jpg";
+
+      // Add the image element to the document body
+      document.body.appendChild(img);
+    }
+  </script>
+</body>
+</html>

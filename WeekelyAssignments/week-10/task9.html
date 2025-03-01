@@ -1,0 +1,23 @@
+<HTML>
+<HEAD>
+	<TITLE> Sum And Product OF Array </TITLE>
+</HEAD>	
+<BODY>
+<div id="output"></div>
+		<SCRIPT>
+const numbers = [1, 2, 3, 4, 5];
+      const sum = numbers.reduce(function(accumulator, currentValue) {
+        return accumulator + currentValue;
+      }, 0);
+
+      
+      const product = numbers.reduce(function(accumulator, currentValue) {
+        return accumulator * currentValue;
+      }, 1);
+
+     
+      const outputDiv = document.getElementById("output");
+      outputDiv.innerHTML = "Sum: " + sum + "<br>" + "Product: " + product;
+		</SCRIPT>
+	</BODY>
+</HTML>
