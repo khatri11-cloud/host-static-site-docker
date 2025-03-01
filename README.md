@@ -38,11 +38,12 @@ we will be building custom docker image, using docker file: a docker file define
 
 1. We first go to the folder where our index.html means where all our backend code is located. Mine was located at Desktop/website
 
-![image.png](attachment:9a3891de-018a-4881-9781-2268207276ad:image.png)
+![Screenshot](images/notion/2.png)
+
 
 1. make Dockerfile in the same directory and adding the following content. you can use any editor like vim, nano to add the following content.
 
-![image.png](attachment:df3c2783-9319-404d-81dd-071ffdcd71aa:image.png)
+![Screenshot](images/notion/3.png)
 
 ```bash
 # Use the official Nginx image from Docker Hub
@@ -63,7 +64,8 @@ CMD ["nginx", "-g", "daemon off;"]
 
 1. Build the docker Image 
 
-![image.png](attachment:a5514157-255b-48f3-a62f-ecd545103efc:image.png)
+![Screenshot](images/notion/4.png)
+
 
 This command creates a Docker image named my-website. Remember the dot in last that which signifies current directory. 
 
@@ -93,13 +95,15 @@ docker ps
 
 then you should see something like this list of the running container with their container id and container name. 
 
-![image.png](attachment:1ba8fec1-8434-4a3a-a08f-d4f39a40c58f:image.png)
+![Screenshot](images/notion/5.png)
+
 
 Step 5: Accessing the Website. 
 
 Now, we can open any browser in our host vm and surf [localhost](http://localhost). and see the website running. 
 
-![image.png](attachment:ed272f13-8898-4590-b52c-61529f741b3e:image.png)
+![Screenshot](images/notion/6.png)
+
 
 Final Thoughts, we have no hosted a static website using docker and nginx on our local machine. This small project helped me understand my understanding of docker containers not only that we also now know how light weight webhosting can be achieved without the need for a full virtual machine. 
 
