@@ -24,7 +24,7 @@ sudo systemctlenable --now docker #enables and starts dockers service
 
 After the above procedure is completed you can check the docker status as shown in the screen shot. 
 
-![image.png](images/nation/1.png)
+![Screenshot](images/notion/1.png)
 
 If the service is active and running we are fine to move on.
 
